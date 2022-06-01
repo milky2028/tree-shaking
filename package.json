@@ -1,0 +1,26 @@
+{
+  "name": "tree-shaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "sideEffects": false,
+  "scripts": {
+    "build:webpack": "rm -rf webpack-build && webpack",
+    "build:rollup": "rm -rf rollup-build && rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milky2028/tree-shaking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milky2028/tree-shaking/issues"
+  },
+  "homepage": "https://github.com/milky2028/tree-shaking#readme",
+  "devDependencies": {
+    "rollup": "^2.75.5",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
