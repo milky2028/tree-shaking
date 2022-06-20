@@ -8,6 +8,7 @@ export default {
   output: {
     dir: "rollup-build",
     format: "esm",
+    entryFileNames: "[name]-rollup.js"
   },
   plugins: [terser()],
 };
