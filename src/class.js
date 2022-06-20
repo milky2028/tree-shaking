@@ -3,7 +3,7 @@ export default class Class {
     return "stuff";
   }
 
-  static doAnotherThing() {
-    return "some different stuff";
+  static thisThingIsUnused() {
+    return "this code is never run";
   }
 }

@@ -2,6 +2,6 @@ export function doThing() {
   return "stuff";
 }
 
-export function doAnotherThing() {
-  return "some different stuff";
+export function thisThingIsUnused() {
+  return "this code is never run";
 }
