@@ -1,6 +1,6 @@
 export default class Class {
   static doThing() {
-    return "stuff";
+    return "stuff" + " other stuff";
   }
 
   static thisThingIsUnused() {

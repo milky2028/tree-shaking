@@ -1,5 +1,5 @@
 export function doThing() {
-  return "stuff";
+  return "stuff" + " other stuff";
 }
 
 export function thisThingIsUnused() {
