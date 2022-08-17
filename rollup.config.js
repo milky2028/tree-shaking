@@ -1,14 +1,15 @@
 import { terser } from "rollup-plugin-terser";
+import commonjs from "@rollup/plugin-commonjs";
+import resolve from "@rollup/plugin-node-resolve";
 
 export default {
   input: {
-    class: "./src/class-entry.js",
-    module: "./src/module-entry.js",
+    res: "./src/module.js",
   },
   output: {
     dir: "rollup-build",
     format: "esm",
-    entryFileNames: "[name]-rollup.js"
+    entryFileNames: "[name]-rollup.js",
   },
-  plugins: [terser()],
+  plugins: [resolve(), commonjs(), terser()],
 };
