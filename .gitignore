@@ -1,3 +1,5 @@
 node_modules
 rollup-build
 webpack-build
+
+.DS_STORE
